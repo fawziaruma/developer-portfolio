@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins';
+}
+.top-banner{
+    display: flex;
+    margin: 50px;
+}
+span{
+    color: rgba(186, 124, 9, 0.853);
+}
+.half-widht{
+    /* width: 50%; */
+    margin-top: 15px;
+}
+
+.heading-title{
+  font-size: 34px;
+
+}
+.text-title{
+    color: rgba(0, 0, 0, 0.719);
+    text-align:center;
+
+}
+.first-btn{
+    background-color: rgba(186, 124, 9, 0.853);
+    border: none;
+    border-radius: 5px;
+}
+.first-btn a{
+    text-decoration: none;
+    color: white;
+}
+.drem-img img{
+   margin-left: -70px;
+}
+.second-btn{
+    background-color: rgba(186, 124, 9, 0.853);
+    border: none;
+    border-radius: 5px;
+}
+.second-btn a{
+    text-decoration: none;
+}
+.expe-text{
+    font-size: 45px;
+}
+.web-card{
+    display: flex;
+    margin: 50px;
+}
+.experiance-item{
+    width: 40%;
+    box-shadow: 10px 10px 35px gray;
+    padding: 20px;
+    border-radius: 7px;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#baby-stack{
+    margin-left: 15%;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
